@@ -1,6 +1,15 @@
 import math
 import random
 import pygame
+import pygame
+
+pygame.init()
+pygame.mixer.init()
+
+pygame.mixer.music.load("bg_music.mp3")
+
+pygame.mixer.music.play(-1)
+
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 500
